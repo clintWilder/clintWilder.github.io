@@ -1,0 +1,261 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Orbitron', sans-serif;
+*/
+
+body {
+    margin-top: 25px;
+    background: #FFEFD5;
+    height: 100%;
+}
+
+#logo {
+    margin: 20px auto 0px auto;
+    display: block;
+}
+
+#skullImage {
+    width: 75%;
+    max-width: 450px;
+}
+
+.start {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    padding: 5px 10px;
+    font-weight: 700;
+    background-color: #666;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.start:hover {
+    background-color: #fcd720;
+    color: #000;
+}
+
+.containerBack {}
+
+.game {
+    border-radius: 25px;
+    border: 2px solid #333;
+    background-color: #fff;
+    overflow: hidden;
+    background-image: url(../images/map.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px 20px;
+}
+
+
+/* Timer */
+
+.timerContainer {
+    margin: 0px auto;
+    background-color: #FFE4B5;
+    border-radius: 0px 0px 15px 15px;
+    width: 300px;
+}
+
+#timeLeft {
+    color: #BDB76B;
+    margin-top: 10px auto;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+#timeShow {
+    color: #fff;
+    margin-top: 0px auto;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+
+/* Quiz Container */
+
+.quizContainer {
+    margin-top: 40px;
+    padding: 15px;
+    margin-bottom: 40px;
+    border: 1px solid #000;
+    min-height: 450px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, .8);
+    box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+#question {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e30922;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #000;
+    text-align: left;
+}
+
+#answers li {
+    font-size: 16pt;
+    font-weight: 500;
+    text-align: left;
+    color: #000;
+    padding: 10px 5px 10px 15px;
+    margin: 15px 0px;
+    -o-transition: background-color .5s ease-out;
+    -ms-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -webkit-transition: background-color .5s ease-out;
+    /* ...and now override with proper CSS property */
+    transition: background-color .2s ease-out;
+}
+
+#answers li:hover {
+    background-color: rgba(252, 215, 32, 0.5);
+    border-radius: 5px;
+}
+
+
+/* answer container */
+
+#answerImg {
+    width: 350px;
+    height: 200px;
+    margin: 20px auto;
+    border: 2px solid #000;
+}
+
+#answerText {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#correct {
+    color: #2bc213;
+    font-size: 24pt;
+    line-height: 1.25;
+    text-shadow: 1px 1px #000;
+}
+
+#incorrect {
+    color: #e30922;
+    font-size: 24pt;
+    line-height: 1.25;
+    text-shadow: 1px 1px #000;
+}
+
+#endOfGame {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+#score {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20pt;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+#percent {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+hr.styleOne {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 -12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+hr.styleTwo {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Questions Left */
+
+.questionsLeftContainer {
+    margin: 0px auto;
+    background-color: #FFE4B5;
+    border-radius: 15px 15px 0px 0px;
+    width: 300px;
+}
+
+#questionsLeft {
+    color: #BDB76B;
+    margin-top: 10px auto;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+#numQuestionsLeft {
+    color: #fff;
+    margin-top: 10px auto;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    #timeLeft {
+        font-size: 14pt;
+        font-weight: 700;
+    }
+    .timerContainer {
+        width: 200px;
+    }
+    .questionsLeftContainer {
+        width: 200px;
+    }
+    #timeShow {
+        font-size: 16pt;
+    }
+    #question {
+        font-size: 20pt;
+    }
+    #answers li {
+        font-size: 16pt;
+    }
+    #answerText {
+        font-size: 16pt;
+    }
+    #correct {
+        font-size: 20pt;
+    }
+    #incorrect {
+        font-size: 20pt;
+    }
+}
